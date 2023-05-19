@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: row;
     margin-top: 1rem;
+    justify-content: center;
 }
 
 .articles__main {
-    width: 40%;
+    width: 45%;
 }
 
 .articles__others {
-    width: 60%;
+    width: 45%;
 }
