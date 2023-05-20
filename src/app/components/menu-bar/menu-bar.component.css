@@ -1,0 +1,12 @@
+.container__menu-bar {
+    padding: 1rem 0 0 5%;
+}
+
+.container__menu-bar > ul {
+    list-style: none;
+}
+
+.container__menu-bar > ul > li{
+    display: inline-block;
+    margin-right: 1rem;
+}
