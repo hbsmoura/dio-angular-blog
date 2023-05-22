@@ -1,14 +1,10 @@
 .container__articles {
     display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
+    flex-direction: column;
+    margin: 1rem 2rem;
     justify-content: center;
 }
 
 .articles__main {
-    width: 45%;
-}
-
-.articles__others {
-    width: 45%;
+    margin-bottom: 5rem;
 }
