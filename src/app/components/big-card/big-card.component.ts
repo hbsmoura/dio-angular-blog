@@ -11,5 +11,6 @@ export class BigCardComponent {
     @Input() picAlt: string = 'Main card Picture'
     @Input() title: string = 'Title'
     @Input() desc: string = ''
+    @Input() id: string = '0'
 
 }
