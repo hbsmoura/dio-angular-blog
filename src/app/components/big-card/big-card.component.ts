@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
 
     @Input() pic: string = 'https://seropedica.rj.gov.br/wp-content/uploads/2021/08/placeholder-250-300x200.png'
+    @Input() picAlt: string = 'Main card Picture'
     @Input() title: string = 'Title'
     @Input() desc: string = ''
 
