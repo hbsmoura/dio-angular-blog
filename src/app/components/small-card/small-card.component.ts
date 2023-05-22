@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-small-card',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SmallCardComponent {
 
+    @Input() pic: string = 'https://cdn.vectorstock.com/i/1000x1000/35/52/placeholder-rgb-color-icon-vector-32173552.webp'
+    @Input() picAlt: string = 'Card picture'
+    @Input() title: string = 'Title'
 }
